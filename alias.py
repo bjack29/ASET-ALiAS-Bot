@@ -7,7 +7,7 @@ import logging,requests,pytz,re,ast
 
 logging.basicConfig(format='%(asctime)s - %(names - &(levelname)s - %(message)s',level=logging.INFO)
 
-updater=Updater(token="423688228:AAGrkHUiS3JQfuMSbIDfq4Zm6z_oTLe4q58")
+updater=Updater(token="YOUR_TOKEN_KEY")
 dispatcher=updater.dispatcher
 
 def start(bot, update):
@@ -42,8 +42,8 @@ def help(bot, update):
      sleep(0.3)
      bot.sendMessage(chat_id=update.message.chat_id, text='''Use one of the following commands
 /mailinglist - to get Aset Alias Mailing List link
-/facebook - to get a link to PyDelhi Facebook page
-/github - to get a link to PyDelhi Github page
+/facebook - to get a link to Aset Alias Facebook page
+/github - to get a link to Aset Alias Github page
 /youtube - to get our youtube channel 
 
 To contribute to|modify me : https://github.com/omi10859/ASET-ALiAS-Bot
