@@ -1,6 +1,6 @@
 # [ASET-ALiAS](http://asetalias.in)-Bot 
 - The following repo contains the source code for the official Telegram Bot of Amity Linux Assistance Sapience Telegram group. 
-- The Bot is hosted on #######.
+- The Bot is hosted on pythonanywhere.com.
 
 ## Contribute 
 - Feel free to open any issue or recommend any changes which you want to see in the Bot. 
